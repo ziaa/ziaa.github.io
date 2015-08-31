@@ -1,0 +1,81 @@
+@font-face  {
+  font-family: IranianSerifWeb-regular;
+  src: url('../font/IranianSerifWeb-regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400
+}
+@font-face  {
+  font-family: Mitra;
+  src: url('../font/Mitra.woff') format('woff');
+  font-style: normal;
+  font-weight: 400
+}
+html {
+  direction: rtl;
+  font-family: IranianSerifWeb-regular,Mitra;
+  font-size: 106.667%;
+  line-height: 1.5rem;
+}
+.container {
+  background: #fff none repeat scroll 0 0;
+}
+.wrapper {
+  display: table;
+  height: 92.5vh;
+  text-align: center;
+  width: 100%;
+}
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.profile-image {
+  background-color: #eaeaea;
+  border-radius: 0.1rem;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 3px #bfbfbf, 0 1px 6px rgba(5, 3, 2, 0.75);
+  font-size: 0;
+  object-fit: cover;
+  display: block;
+  height: 5.5rem;
+  margin: 1.125rem auto 0.9375rem;
+  width: 5.5rem;
+}
+.profile-name {
+  font-family: Mitra;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.28125rem;
+  margin: 0.625rem 0;
+}
+.profile-description {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.profile-link {
+  display: inline-block;
+  margin: 0.9375rem 1.13636rem 0;
+}
+.profile-link svg {
+  display: block;
+  fill: #898989;
+  width: 44px;
+}
+.profile-link:hover svg.linkedin {
+  fill: #0077b5;
+}
+.profile-link:hover svg.twitter {
+  fill: #3BA9EE;
+}
+.profile-link:hover svg.github {
+  fill: #222;
+}
+.profile-link:hover svg.Email {
+  fill: #35210C;
+}
+.profile-link:hover svg.blog {
+  fill: #35210C;
+}
+.profile-link svg.blog {
+  margin-bottom: 10px;
+  height: 27px;
+}
