@@ -48,6 +48,7 @@ html {
   margin: 0.625rem 0;
 }
 .profile-description {
+  direction: rtl;
   margin-top: 1em;
   margin-bottom: 1em;
 }
